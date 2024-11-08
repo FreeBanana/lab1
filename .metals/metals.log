@@ -1,0 +1,553 @@
+2024.11.08 20:00:44 INFO  Started: Metals version 1.4.0 in folders 'C:\Users\s-svo\Desktop\Scala\lab1' for client Visual Studio Code 1.95.2.
+2024.11.08 20:00:45 WARN  Flyway upgrade recommended: H2 2.3.232 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.224.
+2024.11.08 20:00:52 INFO  running 'C:\Users\s-svo\AppData\Local\Coursier\cache\arc\https\github.com\adoptium\temurin17-binaries\releases\download\jdk-17.0.13%252B11\OpenJDK17U-jdk_x64_windows_hotspot_17.0.13_11.zip\jdk-17.0.13+11\bin\java.exe -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\s-svo\AppData\Local\Temp\metals9735899576516080530\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2024.11.08 20:00:53 INFO  [info] welcome to sbt 1.10.5 (Eclipse Adoptium Java 17.0.13)
+2024.11.08 20:00:55 INFO  [info] loading settings for project lab1-build-build from metals.sbt ...
+2024.11.08 20:00:55 INFO  [info] loading project definition from C:\Users\s-svo\Desktop\Scala\lab1\project\project
+2024.11.08 20:00:56 INFO  [info] loading settings for project lab1-build from metals.sbt ...
+2024.11.08 20:00:56 INFO  [info] loading project definition from C:\Users\s-svo\Desktop\Scala\lab1\project
+2024.11.08 20:00:58 INFO  [success] Generated .bloop\lab1-build.json
+2024.11.08 20:00:58 INFO  [success] Total time: 1 s, completed 8 РЅРѕСЏР±. 2024 Рі., 20:00:58
+2024.11.08 20:00:58 INFO  [info] loading settings for project lab1 from build.sbt ...
+2024.11.08 20:00:58 INFO  [info] set current project to hello-world (in build file:/C:/Users/s-svo/Desktop/Scala/lab1/)
+2024.11.08 20:00:59 INFO  [success] Generated .bloop\lab1-test.json
+2024.11.08 20:00:59 INFO  [success] Generated .bloop\lab1.json
+2024.11.08 20:00:59 INFO  [success] Total time: 0 s, completed 8 РЅРѕСЏР±. 2024 Рі., 20:00:59
+2024.11.08 20:00:59 INFO  time: ran 'sbt bloopInstall' in 6.89s
+2024.11.08 20:00:59 INFO  Attempting to connect to the build server...
+2024.11.08 20:00:59 INFO  Found a Bloop server running
+2024.11.08 20:00:59 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\s-svo\Desktop\Scala\lab1\.metals\bsp.trace.json or C:\Users\s-svo\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.11.08 20:01:02 INFO  Attempting to connect to the build server...
+2024.11.08 20:01:02 INFO  Found a Bloop server running
+2024.11.08 20:01:03 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\s-svo\Desktop\Scala\lab1\project\.metals\bsp.trace.json or C:\Users\s-svo\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.11.08 20:01:03 INFO  time: Connected to build server in 3.77s
+2024.11.08 20:01:03 INFO  Connected to Build server: Bloop v2.0.3
+2024.11.08 20:01:03 INFO  running doctor check
+2024.11.08 20:01:03 INFO  java targets: lab1-build, lab1-test, lab1
+2024.11.08 20:01:09 WARN  Flyway upgrade recommended: H2 2.3.232 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.224.
+2024.11.08 20:01:13 INFO  time: indexed workspace in 10s
+2024.11.08 20:01:18 INFO  compiling lab1 (1 scala source)
+2024.11.08 20:01:21 INFO  time: compiled lab1 in 2.15s
+нояб. 08, 2024 8:01:24 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 25
+2024.11.08 20:01:34 INFO  compiling lab1 (1 scala source)
+2024.11.08 20:01:34 INFO  time: compiled lab1 in 0.15s
+нояб. 08, 2024 8:05:39 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 210
+нояб. 08, 2024 8:05:39 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 216
+нояб. 08, 2024 8:05:39 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 214
+нояб. 08, 2024 8:05:45 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+нояб. 08, 2024 8:05:45 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\s-svo\Desktop\Scala\lab1\.metals\.reports\metals-full\2024-11-08\r_compiler-error_(lab1)_20-05-45-255.md
+нояб. 08, 2024 8:05:45 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+нояб. 08, 2024 8:05:45 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\s-svo\Desktop\Scala\lab1\.metals\.reports\metals-full\2024-11-08\r_compiler-error_(lab1)_20-05-45-321.md
+2024.11.08 20:08:10 INFO  compiling lab1 (1 scala source)
+2024.11.08 20:08:10 INFO  time: compiled lab1 in 97ms
+2024.11.08 20:08:15 INFO  compiling lab1 (1 scala source)
+2024.11.08 20:08:15 INFO  time: compiled lab1 in 72ms
+2024.11.08 20:08:15 INFO  compiling lab1 (1 scala source)
+2024.11.08 20:08:15 INFO  time: compiled lab1 in 56ms
+2024.11.08 20:08:25 INFO  compiling lab1 (1 scala source)
+2024.11.08 20:08:25 INFO  time: compiled lab1 in 0.63s
+нояб. 08, 2024 8:09:21 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 499
+Exception in thread "pool-5-thread-1" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:243)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+нояб. 08, 2024 8:09:28 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 537
+2024.11.08 20:09:31 INFO  compiling lab1 (1 scala source)
+2024.11.08 20:09:31 INFO  time: compiled lab1 in 0.62s
+2024.11.08 20:09:38 INFO  compiling lab1 (1 scala source)
+2024.11.08 20:09:38 INFO  time: compiled lab1 in 0.49s
+2024.11.08 20:21:09 INFO  compiling lab1 (1 scala source)
+2024.11.08 20:21:09 WARN  1 deprecation (since 2.13.3); re-run with -deprecation for details
+2024.11.08 20:21:09 INFO  time: compiled lab1 in 0.7s
+2024.11.08 20:21:51 INFO  compiling lab1 (1 scala source)
+2024.11.08 20:21:51 WARN  1 deprecation (since 2.13.3); re-run with -deprecation for details
+2024.11.08 20:21:51 INFO  time: compiled lab1 in 0.58s
+нояб. 08, 2024 8:22:59 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 991
+2024.11.08 20:23:01 INFO  compiling lab1 (1 scala source)
+2024.11.08 20:23:01 INFO  time: compiled lab1 in 0.47s
+нояб. 08, 2024 8:24:39 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.StringIndexOutOfBoundsException: String index out of range: 191
+java.util.concurrent.CompletionException: java.lang.StringIndexOutOfBoundsException: String index out of range: 191
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:332)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:347)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:708)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2162)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+Caused by: java.lang.StringIndexOutOfBoundsException: String index out of range: 191
+	at java.base/java.lang.StringLatin1.charAt(StringLatin1.java:48)
+	at java.base/java.lang.String.charAt(String.java:1517)
+	at scala.collection.StringOps$.apply$extension(StringOps.scala:190)
+	at scala.meta.internal.metals.codeactions.ExtractValueCodeAction.$anonfun$contribute$13(ExtractValueCodeAction.scala:61)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.metals.codeactions.ExtractValueCodeAction.$anonfun$contribute$12(ExtractValueCodeAction.scala:58)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.codeactions.ExtractValueCodeAction.$anonfun$contribute$9(ExtractValueCodeAction.scala:56)
+	at scala.Option$WithFilter.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.codeactions.ExtractValueCodeAction.$anonfun$contribute$7(ExtractValueCodeAction.scala:53)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.codeactions.ExtractValueCodeAction.$anonfun$contribute$6(ExtractValueCodeAction.scala:52)
+	at scala.collection.immutable.List.flatMap(List.scala:294)
+	at scala.meta.internal.metals.codeactions.ExtractValueCodeAction.$anonfun$contribute$1(ExtractValueCodeAction.scala:50)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:687)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	... 3 more
+
+нояб. 08, 2024 8:24:43 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.StringIndexOutOfBoundsException: begin 191, end 212, length 187
+java.util.concurrent.CompletionException: java.lang.StringIndexOutOfBoundsException: begin 191, end 212, length 187
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:332)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:347)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:708)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2162)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+Caused by: java.lang.StringIndexOutOfBoundsException: begin 191, end 212, length 187
+	at java.base/java.lang.String.checkBoundsBeginEnd(String.java:4606)
+	at java.base/java.lang.String.substring(String.java:2709)
+	at scala.meta.internal.metals.codeactions.FlatMapToForComprehensionCodeAction.getIndentForPos(FlatMapToForComprehensionCodeAction.scala:679)
+	at scala.meta.internal.metals.codeactions.FlatMapToForComprehensionCodeAction.$anonfun$contribute$4(FlatMapToForComprehensionCodeAction.scala:59)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.metals.codeactions.FlatMapToForComprehensionCodeAction.$anonfun$contribute$3(FlatMapToForComprehensionCodeAction.scala:55)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.codeactions.FlatMapToForComprehensionCodeAction.$anonfun$contribute$2(FlatMapToForComprehensionCodeAction.scala:54)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.codeactions.FlatMapToForComprehensionCodeAction.$anonfun$contribute$1(FlatMapToForComprehensionCodeAction.scala:53)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:687)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	... 3 more
+
+нояб. 08, 2024 8:24:47 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.StringIndexOutOfBoundsException: begin 191, end 212, length 187
+java.util.concurrent.CompletionException: java.lang.StringIndexOutOfBoundsException: begin 191, end 212, length 187
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:332)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:347)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:708)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2162)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+Caused by: java.lang.StringIndexOutOfBoundsException: begin 191, end 212, length 187
+	at java.base/java.lang.String.checkBoundsBeginEnd(String.java:4606)
+	at java.base/java.lang.String.substring(String.java:2709)
+	at scala.meta.internal.metals.codeactions.FlatMapToForComprehensionCodeAction.getIndentForPos(FlatMapToForComprehensionCodeAction.scala:679)
+	at scala.meta.internal.metals.codeactions.FlatMapToForComprehensionCodeAction.$anonfun$contribute$4(FlatMapToForComprehensionCodeAction.scala:59)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.metals.codeactions.FlatMapToForComprehensionCodeAction.$anonfun$contribute$3(FlatMapToForComprehensionCodeAction.scala:55)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.codeactions.FlatMapToForComprehensionCodeAction.$anonfun$contribute$2(FlatMapToForComprehensionCodeAction.scala:54)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.codeactions.FlatMapToForComprehensionCodeAction.$anonfun$contribute$1(FlatMapToForComprehensionCodeAction.scala:53)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:687)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	... 3 more
+
+нояб. 08, 2024 8:24:50 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.StringIndexOutOfBoundsException: begin 191, end 212, length 187
+java.util.concurrent.CompletionException: java.lang.StringIndexOutOfBoundsException: begin 191, end 212, length 187
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:332)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:347)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:708)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2162)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+Caused by: java.lang.StringIndexOutOfBoundsException: begin 191, end 212, length 187
+	at java.base/java.lang.String.checkBoundsBeginEnd(String.java:4606)
+	at java.base/java.lang.String.substring(String.java:2709)
+	at scala.meta.internal.metals.codeactions.FlatMapToForComprehensionCodeAction.getIndentForPos(FlatMapToForComprehensionCodeAction.scala:679)
+	at scala.meta.internal.metals.codeactions.FlatMapToForComprehensionCodeAction.$anonfun$contribute$4(FlatMapToForComprehensionCodeAction.scala:59)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.metals.codeactions.FlatMapToForComprehensionCodeAction.$anonfun$contribute$3(FlatMapToForComprehensionCodeAction.scala:55)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.codeactions.FlatMapToForComprehensionCodeAction.$anonfun$contribute$2(FlatMapToForComprehensionCodeAction.scala:54)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.codeactions.FlatMapToForComprehensionCodeAction.$anonfun$contribute$1(FlatMapToForComprehensionCodeAction.scala:53)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:687)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	... 3 more
+
+нояб. 08, 2024 8:24:54 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.StringIndexOutOfBoundsException: begin 191, end 212, length 187
+java.util.concurrent.CompletionException: java.lang.StringIndexOutOfBoundsException: begin 191, end 212, length 187
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:332)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:347)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:708)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2162)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+Caused by: java.lang.StringIndexOutOfBoundsException: begin 191, end 212, length 187
+	at java.base/java.lang.String.checkBoundsBeginEnd(String.java:4606)
+	at java.base/java.lang.String.substring(String.java:2709)
+	at scala.meta.internal.metals.codeactions.FlatMapToForComprehensionCodeAction.getIndentForPos(FlatMapToForComprehensionCodeAction.scala:679)
+	at scala.meta.internal.metals.codeactions.FlatMapToForComprehensionCodeAction.$anonfun$contribute$4(FlatMapToForComprehensionCodeAction.scala:59)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.metals.codeactions.FlatMapToForComprehensionCodeAction.$anonfun$contribute$3(FlatMapToForComprehensionCodeAction.scala:55)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.codeactions.FlatMapToForComprehensionCodeAction.$anonfun$contribute$2(FlatMapToForComprehensionCodeAction.scala:54)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.codeactions.FlatMapToForComprehensionCodeAction.$anonfun$contribute$1(FlatMapToForComprehensionCodeAction.scala:53)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:687)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	... 3 more
+
+2024.11.08 20:52:35 INFO  compiling lab1 (1 scala source)
+2024.11.08 20:52:35 INFO  time: compiled lab1 in 63ms
+2024.11.08 20:52:53 INFO  compiling lab1 (1 scala source)
+2024.11.08 20:52:53 INFO  time: compiled lab1 in 44ms
+2024.11.08 20:52:58 INFO  compiling lab1 (1 scala source)
+2024.11.08 20:52:58 INFO  time: compiled lab1 in 55ms
+2024.11.08 20:53:00 INFO  compiling lab1 (1 scala source)
+2024.11.08 20:53:00 INFO  time: compiled lab1 in 48ms
+2024.11.08 20:53:00 INFO  compiling lab1 (1 scala source)
+2024.11.08 20:53:00 INFO  time: compiled lab1 in 30ms
+2024.11.08 20:53:00 INFO  compiling lab1 (1 scala source)
+2024.11.08 20:53:00 INFO  time: compiled lab1 in 29ms
+2024.11.08 20:53:00 INFO  compiling lab1 (1 scala source)
+2024.11.08 20:53:00 INFO  time: compiled lab1 in 37ms
+2024.11.08 20:53:02 INFO  compiling lab1 (1 scala source)
+2024.11.08 20:53:02 INFO  time: compiled lab1 in 40ms
+2024.11.08 20:53:02 INFO  compiling lab1 (1 scala source)
+2024.11.08 20:53:02 INFO  time: compiled lab1 in 29ms
+2024.11.08 20:53:10 ERROR scala.meta.internal.metals.debug.DiscoveryFailures$WorkspaceErrorsException$: Cannot run class, since the workspace has errors.
+	at scala.meta.internal.metals.debug.DiscoveryFailures$WorkspaceErrorsException$.<clinit>(DiscoveryFailures.scala:53)
+	at scala.meta.internal.metals.debug.DebugDiscovery.validate(DebugDiscovery.scala:92)
+	at scala.meta.internal.metals.debug.DebugDiscovery.debugDiscovery(DebugDiscovery.scala:170)
+	at scala.meta.internal.metals.MetalsLspService.debugDiscovery(MetalsLspService.scala:1476)
+	at scala.meta.internal.metals.WorkspaceLspService.executeCommand(WorkspaceLspService.scala:1006)
+	at scala.meta.metals.lsp.DelegatingScalaService.executeCommand(DelegatingScalaService.scala:169)
+	at jdk.internal.reflect.GeneratedMethodAccessor18.invoke(null)
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:569)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:128)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:271)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:201)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2024.11.08 20:53:10 INFO  compiling lab1 (1 scala source)
+2024.11.08 20:53:10 INFO  time: compiled lab1 in 52ms
+2024.11.08 20:53:19 INFO  compiling lab1 (1 scala source)
+2024.11.08 20:53:19 INFO  time: compiled lab1 in 44ms
+2024.11.08 20:53:19 INFO  compiling lab1 (1 scala source)
+2024.11.08 20:53:19 INFO  time: compiled lab1 in 36ms
+2024.11.08 20:53:21 INFO  compiling lab1 (1 scala source)
+2024.11.08 20:53:21 INFO  time: compiled lab1 in 47ms
+2024.11.08 20:53:21 INFO  compiling lab1 (1 scala source)
+2024.11.08 20:53:21 INFO  time: compiled lab1 in 30ms
+2024.11.08 20:53:25 INFO  compiling lab1 (1 scala source)
+2024.11.08 20:53:25 INFO  time: compiled lab1 in 40ms
+2024.11.08 20:53:25 INFO  compiling lab1 (1 scala source)
+2024.11.08 20:53:25 INFO  time: compiled lab1 in 35ms
+2024.11.08 20:53:27 INFO  compiling lab1 (1 scala source)
+2024.11.08 20:53:27 INFO  time: compiled lab1 in 46ms
+2024.11.08 20:53:27 INFO  compiling lab1 (1 scala source)
+2024.11.08 20:53:27 INFO  time: compiled lab1 in 26ms
+2024.11.08 20:53:27 INFO  compiling lab1 (1 scala source)
+2024.11.08 20:53:27 INFO  time: compiled lab1 in 26ms
+2024.11.08 20:53:28 INFO  compiling lab1 (1 scala source)
+2024.11.08 20:53:28 INFO  time: compiled lab1 in 27ms
+2024.11.08 20:53:28 INFO  compiling lab1 (1 scala source)
+2024.11.08 20:53:28 INFO  time: compiled lab1 in 27ms
+2024.11.08 20:53:28 INFO  compiling lab1 (1 scala source)
+2024.11.08 20:53:28 INFO  time: compiled lab1 in 25ms
+2024.11.08 20:53:30 INFO  Disconnecting from Bloop session...
+2024.11.08 20:53:30 INFO  Shut down connection with build server.
+2024.11.08 20:53:30 INFO  Shut down connection with build server.
+2024.11.08 20:53:30 INFO  Attempting to connect to the build server...
+2024.11.08 20:53:30 INFO  Found a Bloop server running
+2024.11.08 20:53:30 INFO  Attempting to connect to the build server...
+2024.11.08 20:53:30 INFO  Found a Bloop server running
+2024.11.08 20:53:30 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\s-svo\Desktop\Scala\lab1\.metals\bsp.trace.json or C:\Users\s-svo\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.11.08 20:53:30 INFO  Attempting to connect to the build server...
+2024.11.08 20:53:30 INFO  Found a Bloop server running
+2024.11.08 20:53:30 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\s-svo\Desktop\Scala\lab1\.metals\bsp.trace.json or C:\Users\s-svo\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.11.08 20:53:30 INFO  Attempting to connect to the build server...
+2024.11.08 20:53:30 INFO  Found a Bloop server running
+2024.11.08 20:53:31 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\s-svo\Desktop\Scala\lab1\project\.metals\bsp.trace.json or C:\Users\s-svo\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.11.08 20:53:31 INFO  time: Connected to build server in 0.85s
+2024.11.08 20:53:31 INFO  Connected to Build server: Bloop v2.0.3
+2024.11.08 20:53:31 INFO  running doctor check
+2024.11.08 20:53:31 INFO  java targets: lab1-build, lab1-test, lab1
+2024.11.08 20:53:30 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\s-svo\Desktop\Scala\lab1\project\.metals\bsp.trace.json or C:\Users\s-svo\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.11.08 20:53:32 INFO  time: indexed workspace in 1.72s
+2024.11.08 20:53:33 INFO  compiling lab1 (1 scala source)
+2024.11.08 20:53:33 INFO  time: compiled lab1 in 63ms
+2024.11.08 20:53:35 INFO  compiling lab1 (1 scala source)
+2024.11.08 20:53:35 INFO  time: compiled lab1 in 37ms
+2024.11.08 20:53:35 INFO  compiling lab1 (1 scala source)
+2024.11.08 20:53:35 INFO  time: compiled lab1 in 30ms
+2024.11.08 20:53:37 INFO  compilation cancelled
+2024.11.08 20:53:37 INFO  compilation cancelled
+2024.11.08 20:53:38 INFO  compiling lab1 (1 scala source)
+2024.11.08 20:53:38 INFO  time: compiled lab1 in 39ms
+2024.11.08 20:53:38 INFO  compiling lab1 (1 scala source)
+2024.11.08 20:53:38 INFO  time: compiled lab1 in 27ms
+2024.11.08 20:53:39 INFO  compiling lab1 (1 scala source)
+2024.11.08 20:53:39 INFO  time: compiled lab1 in 32ms
+2024.11.08 20:53:39 INFO  compiling lab1 (1 scala source)
+2024.11.08 20:53:39 INFO  time: compiled lab1 in 25ms
+2024.11.08 20:53:41 INFO  compiling lab1 (1 scala source)
+2024.11.08 20:53:41 INFO  time: compiled lab1 in 33ms
+2024.11.08 20:53:41 INFO  compiling lab1 (1 scala source)
+2024.11.08 20:53:41 INFO  time: compiled lab1 in 27ms
+нояб. 08, 2024 8:53:44 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.StringIndexOutOfBoundsException: String index out of range: 191
+java.util.concurrent.CompletionException: java.lang.StringIndexOutOfBoundsException: String index out of range: 191
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:332)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:347)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:708)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2162)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+Caused by: java.lang.StringIndexOutOfBoundsException: String index out of range: 191
+	at java.base/java.lang.StringLatin1.charAt(StringLatin1.java:48)
+	at java.base/java.lang.String.charAt(String.java:1517)
+	at scala.collection.StringOps$.apply$extension(StringOps.scala:190)
+	at scala.meta.internal.metals.codeactions.ExtractValueCodeAction.$anonfun$contribute$13(ExtractValueCodeAction.scala:61)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.metals.codeactions.ExtractValueCodeAction.$anonfun$contribute$12(ExtractValueCodeAction.scala:58)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.codeactions.ExtractValueCodeAction.$anonfun$contribute$9(ExtractValueCodeAction.scala:56)
+	at scala.Option$WithFilter.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.codeactions.ExtractValueCodeAction.$anonfun$contribute$7(ExtractValueCodeAction.scala:53)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.codeactions.ExtractValueCodeAction.$anonfun$contribute$6(ExtractValueCodeAction.scala:52)
+	at scala.collection.immutable.List.flatMap(List.scala:294)
+	at scala.meta.internal.metals.codeactions.ExtractValueCodeAction.$anonfun$contribute$1(ExtractValueCodeAction.scala:50)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:687)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	... 3 more
+
+2024.11.08 20:53:51 ERROR Timeout waiting for 'build/initialize' response
+2024.11.08 20:53:51 WARN  Retrying connection to the build server Bloop
+2024.11.08 20:53:51 INFO  Found a Bloop server running
+2024.11.08 20:53:51 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\s-svo\Desktop\Scala\lab1\project\.metals\bsp.trace.json or C:\Users\s-svo\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.11.08 20:53:51 INFO  time: Connected to build server in 21s
+2024.11.08 20:53:51 INFO  Connected to Build server: Bloop v2.0.3
+2024.11.08 20:53:51 INFO  running doctor check
+2024.11.08 20:53:51 INFO  java targets: lab1-build, lab1-test, lab1
+2024.11.08 20:53:51 INFO  time: indexed workspace in 0.84s
+2024.11.08 20:53:52 INFO  compiling lab1 (1 scala source)
+2024.11.08 20:53:52 INFO  time: compiled lab1 in 43ms
+нояб. 08, 2024 8:53:52 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.StringIndexOutOfBoundsException: String index out of range: 191
+java.util.concurrent.CompletionException: java.lang.StringIndexOutOfBoundsException: String index out of range: 191
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:332)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:347)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:708)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2162)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+Caused by: java.lang.StringIndexOutOfBoundsException: String index out of range: 191
+	at java.base/java.lang.StringLatin1.charAt(StringLatin1.java:48)
+	at java.base/java.lang.String.charAt(String.java:1517)
+	at scala.collection.StringOps$.apply$extension(StringOps.scala:190)
+	at scala.meta.internal.metals.codeactions.ExtractValueCodeAction.$anonfun$contribute$13(ExtractValueCodeAction.scala:61)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.metals.codeactions.ExtractValueCodeAction.$anonfun$contribute$12(ExtractValueCodeAction.scala:58)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.codeactions.ExtractValueCodeAction.$anonfun$contribute$9(ExtractValueCodeAction.scala:56)
+	at scala.Option$WithFilter.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.codeactions.ExtractValueCodeAction.$anonfun$contribute$7(ExtractValueCodeAction.scala:53)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.codeactions.ExtractValueCodeAction.$anonfun$contribute$6(ExtractValueCodeAction.scala:52)
+	at scala.collection.immutable.List.flatMap(List.scala:294)
+	at scala.meta.internal.metals.codeactions.ExtractValueCodeAction.$anonfun$contribute$1(ExtractValueCodeAction.scala:50)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:687)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	... 3 more
+
+2024.11.08 20:54:49 INFO  time: code lens generation in 1.38s
+2024.11.08 20:55:06 INFO  compiling lab1 (1 scala source)
+2024.11.08 20:55:06 INFO  time: compiled lab1 in 46ms
+нояб. 08, 2024 8:55:07 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.StringIndexOutOfBoundsException: String index out of range: 191
+java.util.concurrent.CompletionException: java.lang.StringIndexOutOfBoundsException: String index out of range: 191
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:332)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:347)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:708)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2162)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+Caused by: java.lang.StringIndexOutOfBoundsException: String index out of range: 191
+	at java.base/java.lang.StringLatin1.charAt(StringLatin1.java:48)
+	at java.base/java.lang.String.charAt(String.java:1517)
+	at scala.collection.StringOps$.apply$extension(StringOps.scala:190)
+	at scala.meta.internal.metals.codeactions.ExtractValueCodeAction.$anonfun$contribute$13(ExtractValueCodeAction.scala:61)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.metals.codeactions.ExtractValueCodeAction.$anonfun$contribute$12(ExtractValueCodeAction.scala:58)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.codeactions.ExtractValueCodeAction.$anonfun$contribute$9(ExtractValueCodeAction.scala:56)
+	at scala.Option$WithFilter.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.codeactions.ExtractValueCodeAction.$anonfun$contribute$7(ExtractValueCodeAction.scala:53)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.codeactions.ExtractValueCodeAction.$anonfun$contribute$6(ExtractValueCodeAction.scala:52)
+	at scala.collection.immutable.List.flatMap(List.scala:294)
+	at scala.meta.internal.metals.codeactions.ExtractValueCodeAction.$anonfun$contribute$1(ExtractValueCodeAction.scala:50)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:687)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	... 3 more
+
+нояб. 08, 2024 8:55:27 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1668
+2024.11.08 20:55:42 INFO  compiling lab1 (1 scala source)
+2024.11.08 20:55:42 INFO  time: compiled lab1 in 0.45s
+2024.11.08 20:55:52 INFO  compiling lab1 (1 scala source)
+2024.11.08 20:55:52 INFO  time: compiled lab1 in 42ms
+2024.11.08 20:56:03 INFO  time: compiled lab1 in 7ms
+2024.11.08 20:56:05 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\s-svo\Desktop\Scala\lab1\.metals\dap-server.trace.json or C:\Users\s-svo\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2024.11.08 20:56:05 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\s-svo\Desktop\Scala\lab1\.metals\dap-client.trace.json or C:\Users\s-svo\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2024.11.08 20:56:05 INFO  Starting debug proxy for [Main]
+2024.11.08 20:56:06 INFO  Loaded expression compiler in 393 milliseconds
+2024.11.08 20:56:08 INFO  Loaded all sources and classes in 2 seconds
+2024.11.08 20:56:08 INFO  Initialized Scala 3 decoder in 2 milliseconds
+2024.11.08 20:56:08 INFO  Trying to attach to remote debuggee VM 127.0.0.1:53835 .
+2024.11.08 20:56:08 INFO  Attaching to debuggee VM succeeded.
+2024.11.08 20:56:08 INFO  Canceling debug proxy for [Main]
+2024.11.08 20:56:08 INFO  Closing debug server tcp://0.0.0.0:53832
+something's wrong: no file:///C:/Users/s-svo/Desktop/Scala/lab1/src/main/scala/Main.scala in List[<error>]RangePosition(file:///C:/Users/s-svo/Desktop/Scala/lab1/src/main/scala/Main.scala, 160, 160, 174)
+something's wrong: no file:///C:/Users/s-svo/Desktop/Scala/lab1/src/main/scala/Main.scala in List[<error>]RangePosition(file:///C:/Users/s-svo/Desktop/Scala/lab1/src/main/scala/Main.scala, 160, 160, 167)
+something's wrong: no file:///C:/Users/s-svo/Desktop/Scala/lab1/src/main/scala/Main.scala in List[Int]RangePosition(file:///C:/Users/s-svo/Desktop/Scala/lab1/src/main/scala/Main.scala, 160, 160, 169)
+2024.11.08 21:01:51 INFO  compiling lab1 (1 scala source)
+2024.11.08 21:01:51 INFO  time: compiled lab1 in 0.13s
+2024.11.08 21:02:15 INFO  compiling lab1 (1 scala source)
+2024.11.08 21:02:15 INFO  time: compiled lab1 in 82ms
+2024.11.08 21:03:48 INFO  compiling lab1 (1 scala source)
+2024.11.08 21:03:48 INFO  time: compiled lab1 in 87ms
+2024.11.08 21:03:50 INFO  compiling lab1 (1 scala source)
+2024.11.08 21:03:50 INFO  time: compiled lab1 in 80ms
+2024.11.08 21:05:01 INFO  compiling lab1 (1 scala source)
+2024.11.08 21:05:01 INFO  time: compiled lab1 in 0.52s
+2024.11.08 21:05:08 INFO  compiling lab1 (1 scala source)
+2024.11.08 21:05:08 INFO  time: compiled lab1 in 0.44s
+2024.11.08 21:05:41 INFO  compiling lab1 (1 scala source)
+2024.11.08 21:05:41 INFO  time: compiled lab1 in 0.32s
+2024.11.08 21:06:17 INFO  compiling lab1 (1 scala source)
+2024.11.08 21:06:17 INFO  time: compiled lab1 in 0.57s
+2024.11.08 21:07:20 INFO  compiling lab1 (1 scala source)
+2024.11.08 21:07:20 INFO  time: compiled lab1 in 0.44s
+2024.11.08 21:08:44 INFO  compiling lab1 (1 scala source)
+2024.11.08 21:08:44 INFO  time: compiled lab1 in 46ms
+2024.11.08 21:08:44 WARN  Could not load snapshot text for C:\Users\s-svo\Desktop\Scala\lab1\src\main\scala\Main.scala
+нояб. 08, 2024 9:08:47 PM scala.meta.internal.pc.CompletionProvider expected$1
+WARNING: offset 148, count -1, length 537
+2024.11.08 21:08:47 WARN  Could not load snapshot text for C:\Users\s-svo\Desktop\Scala\lab1\src\main\scala\Main.scala
+2024.11.08 21:08:48 WARN  Could not load snapshot text for C:\Users\s-svo\Desktop\Scala\lab1\src\main\scala\Main.scala
+2024.11.08 21:08:48 WARN  Could not load snapshot text for C:\Users\s-svo\Desktop\Scala\lab1\src\main\scala\Main.scala
+2024.11.08 21:08:49 WARN  Could not load snapshot text for C:\Users\s-svo\Desktop\Scala\lab1\src\main\scala\Main.scala
+2024.11.08 21:08:51 WARN  Could not load snapshot text for C:\Users\s-svo\Desktop\Scala\lab1\src\main\scala\Main.scala
+2024.11.08 21:08:51 WARN  Could not load snapshot text for C:\Users\s-svo\Desktop\Scala\lab1\src\main\scala\Main.scala
+2024.11.08 21:08:55 WARN  Could not load snapshot text for C:\Users\s-svo\Desktop\Scala\lab1\src\main\scala\Main.scala
+2024.11.08 21:09:12 WARN  Could not load snapshot text for C:\Users\s-svo\Desktop\Scala\lab1\src\main\scala\Main.scala
+2024.11.08 21:09:12 WARN  Could not load snapshot text for C:\Users\s-svo\Desktop\Scala\lab1\src\main\scala\Main.scala
+2024.11.08 21:09:12 WARN  Could not load snapshot text for C:\Users\s-svo\Desktop\Scala\lab1\src\main\scala\Main.scala
+2024.11.08 21:09:12 WARN  Could not load snapshot text for C:\Users\s-svo\Desktop\Scala\lab1\src\main\scala\Main.scala
+2024.11.08 21:09:12 WARN  Could not load snapshot text for C:\Users\s-svo\Desktop\Scala\lab1\src\main\scala\Main.scala
+2024.11.08 21:09:12 WARN  Could not load snapshot text for C:\Users\s-svo\Desktop\Scala\lab1\src\main\scala\Main.scala
+2024.11.08 21:09:12 WARN  Could not load snapshot text for C:\Users\s-svo\Desktop\Scala\lab1\src\main\scala\Main.scala
+2024.11.08 21:09:12 WARN  Could not load snapshot text for C:\Users\s-svo\Desktop\Scala\lab1\src\main\scala\Main.scala
+2024.11.08 21:09:12 WARN  Could not load snapshot text for C:\Users\s-svo\Desktop\Scala\lab1\src\main\scala\Main.scala
+2024.11.08 21:09:35 WARN  Could not load snapshot text for C:\Users\s-svo\Desktop\Scala\lab1\src\main\scala\Main.scala
+2024.11.08 21:09:37 WARN  Could not load snapshot text for C:\Users\s-svo\Desktop\Scala\lab1\src\main\scala\Main.scala
+2024.11.08 21:09:38 WARN  Could not load snapshot text for C:\Users\s-svo\Desktop\Scala\lab1\src\main\scala\Main.scala
+2024.11.08 21:09:39 WARN  Could not load snapshot text for C:\Users\s-svo\Desktop\Scala\lab1\src\main\scala\Main.scala
+2024.11.08 21:09:51 WARN  Could not load snapshot text for C:\Users\s-svo\Desktop\Scala\lab1\src\main\scala\Main.scala
+2024.11.08 21:09:52 INFO  compiling lab1 (1 scala source)
+2024.11.08 21:09:52 INFO  time: compiled lab1 in 0.52s
+нояб. 08, 2024 9:10:27 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4275
+нояб. 08, 2024 9:10:32 PM scala.meta.internal.pc.CompletionProvider expected$1
+WARNING: offset 313, count -1, length 601
+2024.11.08 21:10:51 INFO  compiling lab1 (1 scala source)
+2024.11.08 21:10:51 INFO  time: compiled lab1 in 81ms
+2024.11.08 21:11:08 INFO  compiling lab1 (1 scala source)
+2024.11.08 21:11:08 INFO  time: compiled lab1 in 75ms
+2024.11.08 21:11:14 INFO  compiling lab1 (1 scala source)
+2024.11.08 21:11:14 INFO  time: compiled lab1 in 72ms
+2024.11.08 21:11:33 INFO  time: compiled lab1 in 11ms
+нояб. 08, 2024 9:11:50 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4630
+2024.11.08 21:11:50 INFO  compiling lab1 (1 scala source)
+2024.11.08 21:11:50 INFO  time: compiled lab1 in 0.51s
+нояб. 08, 2024 9:13:52 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4854
+2024.11.08 21:13:52 INFO  compiling lab1 (1 scala source)
+2024.11.08 21:13:52 INFO  time: compiled lab1 in 0.5s
+нояб. 08, 2024 9:14:21 PM scala.meta.internal.pc.CompletionProvider expected$1
+WARNING: offset 527, count -1, length 566
+2024.11.08 21:14:22 INFO  compiling lab1 (1 scala source)
+2024.11.08 21:14:22 WARN  Could not load snapshot text for C:\Users\s-svo\Desktop\Scala\lab1\src\main\scala\Main.scala
+2024.11.08 21:14:22 INFO  time: compiled lab1 in 0.43s
+2024.11.08 21:14:28 INFO  compiling lab1 (1 scala source)
+2024.11.08 21:14:28 INFO  time: compiled lab1 in 0.42s
+2024.11.08 21:14:45 INFO  compiling lab1 (1 scala source)
+2024.11.08 21:14:45 INFO  time: compiled lab1 in 0.37s
+2024.11.08 21:15:04 INFO  compiling lab1 (1 scala source)
+2024.11.08 21:15:04 INFO  time: compiled lab1 in 92ms
+2024.11.08 21:15:11 INFO  compiling lab1 (1 scala source)
+2024.11.08 21:15:11 INFO  time: compiled lab1 in 0.42s
+2024.11.08 21:31:08 INFO  Shutting down server
+2024.11.08 21:31:08 INFO  shutting down Metals
+2024.11.08 21:31:08 INFO  Shut down connection with build server.
+2024.11.08 21:31:08 INFO  Shut down connection with build server.
+2024.11.08 21:31:08 INFO  Exiting server
